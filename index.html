@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Вероника Ланская — nail-мастер в Санкт-Петербурге</title>
+  <meta name="description" content="Маникюр, покрытие гель-лаком, укрепление, наращивание и дизайн ногтей в Санкт-Петербурге. Онлайн-запись к мастеру Веронике Ланской.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Вероника Ланская — nail-мастер в Санкт-Петербурге">
+  <meta property="og:description" content="Маникюр, покрытие гель-лаком, укрепление, наращивание и дизайн ногтей. Онлайн-запись.">
+  <meta name="theme-color" content="#151e1b">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23151e1b'/%3E%3Cellipse cx='16' cy='15' rx='5' ry='9' fill='%23ebf6e6'/%3E%3C/svg%3E">
+
+  <link rel="preload" href="fonts/majestic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="img/hero-bg.webp" imagesrcset="img/hero-bg-800.webp 800w, img/hero-bg.webp 1586w" imagesizes="100vw" fetchpriority="high">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Шапка: лежит на баннере; после него появляется при прокрутке вверх -->
+  <header class="topbar" id="topbar">
+    <div class="topbar__inner">
+      <a class="topbar__logo" href="#top" aria-label="Вероника Ланская — на главную">
+        <span class="topbar__logo-first script">Вероника</span>
+        <span class="topbar__logo-last script">Ланская</span>
+      </a>
+
+      <nav class="topbar__nav" aria-label="Разделы сайта">
+        <a href="#services">Услуги</a>
+        <a href="#works">Портфолио</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <div class="topbar__side">
+        <a class="topbar__cta script" href="#booking">Записаться</a>
+        <a class="topbar__seal" href="#top" aria-hidden="true" tabindex="-1"><span class="script">Л</span></a>
+        <button class="topbar__burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Мобильное меню -->
+  <div class="menu" id="menu" hidden>
+    <nav class="menu__nav" aria-label="Разделы сайта">
+      <a class="script" href="#about">О мастере</a>
+      <a class="script" href="#services">Услуги</a>
+      <a class="script" href="#works">Портфолио</a>
+      <a class="script" href="#booking">Запись</a>
+      <a class="script" href="#contacts">Контакты</a>
+    </nav>
+    <div class="menu__foot">
+      <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+      <a href="https://t.me/lanskaya_nails" target="_blank" rel="noopener">@lanskaya_nails</a>
+    </div>
+  </div>
+
+  <!-- 1. Баннер -->
+  <section class="hero" id="top">
+    <img class="hero__bg"
+         src="img/hero-bg.webp"
+         srcset="img/hero-bg-800.webp 800w, img/hero-bg.webp 1586w"
+         sizes="100vw" width="1586" height="992" alt="" fetchpriority="high">
+    <div class="hero__content">
+      <p class="hero__label">nail master · Санкт-Петербург</p>
+      <h1 class="hero__name">Ланская</h1>
+      <a class="hero__btn" href="#booking">записаться</a>
+    </div>
+  </section>
+
+  <main>
+    <!-- 2. О мастере: две надписи прописью вокруг рук, как в макете -->
+    <section class="about" id="about" aria-label="О мастере">
+      <p class="about__line about__line--top script">Меня зовут Вероника. Я&nbsp;делаю маникюр в&nbsp;Петербурге с&nbsp;2017</p>
+      <p class="about__line about__line--bottom script">Одна клиентка за&nbsp;раз,<br> стерильно и&nbsp;без спешки</p>
+
+      <div class="hands" aria-hidden="true">
+        <img class="hands__left" src="img/hand-left.webp" width="879" height="795" alt="" decoding="async">
+        <img class="hands__right" src="img/hand-right.webp" width="1097" height="938" alt="" decoding="async">
+      </div>
+    </section>
+
+    <!-- 3. Услуги и цены -->
+    <section class="services" id="services" aria-labelledby="services-title">
+      <div class="services__main">
+        <ul class="price">
+          <li class="price__row"><span class="price__name">Маникюр без покрытия</span><span class="price__dots"></span><span class="price__cost">1 500 ₽</span></li>
+          <li class="price__row"><span class="price__name">Маникюр с покрытием гель-лаком</span><span class="price__dots"></span><span class="price__cost">2 800 ₽</span></li>
+          <li class="price__row"><span class="price__name">Снятие покрытия</span><span class="price__dots"></span><span class="price__cost">500 ₽</span></li>
+          <li class="price__row"><span class="price__name">Укрепление ногтей</span><span class="price__dots"></span><span class="price__cost">600 ₽</span></li>
+          <li class="price__row"><span class="price__name">Наращивание ногтей</span><span class="price__dots"></span><span class="price__cost">от 4 000 ₽</span></li>
+          <li class="price__row"><span class="price__name">Ремонт одного ногтя</span><span class="price__dots"></span><span class="price__cost">300 ₽</span></li>
+          <li class="price__row"><span class="price__name">Минималистичный дизайн</span><span class="price__dots"></span><span class="price__cost">от 300 ₽</span></li>
+          <li class="price__row"><span class="price__name">Сложный дизайн</span><span class="price__dots"></span><span class="price__cost">от 800 ₽</span></li>
+        </ul>
+
+        <h2 class="services__title script" id="services-title">Услуги</h2>
+        <img class="services__img" src="img/red-nails-1000.webp" srcset="img/red-nails-1000.webp 1000w, img/red-nails.webp 2000w" sizes="(max-width: 1023px) 100vw, 46vw" width="2000" height="1116" alt="Красный глянцевый маникюр на коротких ногтях" loading="lazy" decoding="async">
+      </div>
+
+      <aside class="feature">
+        <p class="feature__word script" aria-hidden="true">Глянец</p>
+        <div class="feature__text">
+          <h3 class="feature__title">Зеркальный блик</h3>
+          <p>Выравниваю ногти базой, поэтому покрытие ложится идеально ровно и&nbsp;блестит, как в&nbsp;первый день, до&nbsp;самой коррекции</p>
+        </div>
+        <img class="feature__img" src="img/grey-nails.webp" width="1100" height="1100" alt="Длинные ногти формы балерина с серым глянцевым покрытием" loading="lazy" decoding="async">
+      </aside>
+    </section>
+
+    <!-- 4. Портфолио: журнальная мозаика. Чтобы заменить работу, поменяйте файлы в img/works и подпись -->
+    <section class="works" id="works" aria-labelledby="works-title">
+      <svg class="deco-strands deco-strands--l" viewBox="0 0 240 600" preserveAspectRatio="none" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="0.6"><path d="M40.0 -10 C99.5 179.1 -86.4 422.2 16.5 610"/><path d="M49.2 -10 C102.9 170.4 -66.6 416.0 32.7 610"/><path d="M58.5 -10 C110.0 165.5 -28.8 397.4 42.2 610"/><path d="M67.7 -10 C132.3 196.9 -13.2 413.8 60.6 610"/><path d="M76.9 -10 C121.0 191.5 13.2 398.7 91.1 610"/><path d="M86.2 -10 C135.0 189.0 12.8 424.9 89.3 610"/><path d="M95.4 -10 C143.1 172.9 39.7 393.6 115.1 610"/><path d="M104.6 -10 C158.5 165.7 58.5 425.1 121.8 610"/><path d="M113.8 -10 C153.2 187.7 95.0 404.6 142.1 610"/><path d="M123.1 -10 C166.1 192.5 118.4 407.3 160.0 610"/><path d="M132.3 -10 C160.1 165.1 147.3 399.1 183.4 610"/><path d="M141.5 -10 C163.9 180.1 157.7 424.4 189.0 610"/><path d="M150.8 -10 C178.3 181.7 180.3 424.8 212.1 610"/><path d="M160.0 -10 C200.2 196.7 188.3 429.8 219.1 610"/></g></svg>
+      <svg class="deco-strands deco-strands--r" viewBox="0 0 240 600" preserveAspectRatio="none" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="0.6"><path d="M40.0 -10 C99.5 179.1 -86.4 422.2 16.5 610"/><path d="M49.2 -10 C102.9 170.4 -66.6 416.0 32.7 610"/><path d="M58.5 -10 C110.0 165.5 -28.8 397.4 42.2 610"/><path d="M67.7 -10 C132.3 196.9 -13.2 413.8 60.6 610"/><path d="M76.9 -10 C121.0 191.5 13.2 398.7 91.1 610"/><path d="M86.2 -10 C135.0 189.0 12.8 424.9 89.3 610"/><path d="M95.4 -10 C143.1 172.9 39.7 393.6 115.1 610"/><path d="M104.6 -10 C158.5 165.7 58.5 425.1 121.8 610"/><path d="M113.8 -10 C153.2 187.7 95.0 404.6 142.1 610"/><path d="M123.1 -10 C166.1 192.5 118.4 407.3 160.0 610"/><path d="M132.3 -10 C160.1 165.1 147.3 399.1 183.4 610"/><path d="M141.5 -10 C163.9 180.1 157.7 424.4 189.0 610"/><path d="M150.8 -10 C178.3 181.7 180.3 424.8 212.1 610"/><path d="M160.0 -10 C200.2 196.7 188.3 429.8 219.1 610"/></g></svg>
+
+      <div class="mosaic">
+        <div class="mosaic__head">
+          <h2 class="mosaic__title script" id="works-title">Портфолио</h2>
+          <a class="mosaic__more" href="https://t.me/lanskaya_nails" target="_blank" rel="noopener">Больше работ в&nbsp;Telegram</a>
+        </div>
+        <figure class="tile tile--1">
+          <img src="img/works/01-560.webp" srcset="img/works/01-560.webp 560w, img/works/01.webp 736w"
+               sizes="(max-width: 767px) 50vw, 30vw" width="736" height="981" alt="Красное омбре на квадратной форме" loading="lazy" decoding="async">
+          <figcaption>Красное омбре на квадратной форме</figcaption>
+        </figure>
+        <figure class="tile tile--2">
+          <img src="img/works/02-560.webp" srcset="img/works/02-560.webp 560w, img/works/02.webp 735w"
+               sizes="(max-width: 767px) 50vw, 30vw" width="735" height="799" alt="Готический красный с хромом" loading="lazy" decoding="async">
+          <figcaption>Готический красный с хромом</figcaption>
+        </figure>
+        <figure class="tile tile--3">
+          <img src="img/works/03-560.webp" srcset="img/works/03-560.webp 560w, img/works/03.webp 736w"
+               sizes="(max-width: 767px) 50vw, 30vw" width="736" height="981" alt="Розовый нюд с пирсингом" loading="lazy" decoding="async">
+          <figcaption>Розовый нюд с пирсингом</figcaption>
+        </figure>
+        <figure class="tile tile--4">
+          <img src="img/works/04-560.webp" srcset="img/works/04-560.webp 560w, img/works/04.webp 1080w"
+               sizes="(max-width: 767px) 50vw, 30vw" width="1080" height="1322" alt="Чёрный горох на стилетах" loading="lazy" decoding="async">
+          <figcaption>Чёрный горох на стилетах</figcaption>
+        </figure>
+        <figure class="tile tile--5">
+          <img src="img/works/05-560.webp" srcset="img/works/05-560.webp 560w, img/works/05.webp 1080w"
+               sizes="(max-width: 767px) 50vw, 30vw" width="1080" height="1335" alt="Розовый хром с подвесками" loading="lazy" decoding="async">
+          <figcaption>Розовый хром с подвесками</figcaption>
+        </figure>
+        <figure class="tile tile--6">
+          <img src="img/works/06-560.webp" srcset="img/works/06-560.webp 560w, img/works/06.webp 735w"
+               sizes="(max-width: 767px) 50vw, 30vw" width="735" height="963" alt="Нюд с ручной росписью" loading="lazy" decoding="async">
+          <figcaption>Нюд с ручной росписью</figcaption>
+        </figure>
+        <figure class="tile tile--7">
+          <img src="img/works/07-560.webp" srcset="img/works/07-560.webp 560w, img/works/07.webp 736w"
+               sizes="(max-width: 767px) 50vw, 30vw" width="736" height="827" alt="Белый с хромовыми крестами" loading="lazy" decoding="async">
+          <figcaption>Белый с хромовыми крестами</figcaption>
+        </figure>
+        <figure class="tile tile--8">
+          <img src="img/works/08-560.webp" srcset="img/works/08-560.webp 560w, img/works/08.webp 1070w"
+               sizes="(max-width: 767px) 50vw, 30vw" width="1070" height="1200" alt="Чёрное кружево" loading="lazy" decoding="async">
+          <figcaption>Чёрное кружево</figcaption>
+        </figure>
+        <figure class="tile tile--9">
+          <img src="img/works/09-560.webp" srcset="img/works/09-560.webp 560w, img/works/09.webp 736w"
+               sizes="(max-width: 767px) 50vw, 30vw" width="736" height="736" alt="Розовое омбре с серебром" loading="lazy" decoding="async">
+          <figcaption>Розовое омбре с серебром</figcaption>
+        </figure>
+        <figure class="tile tile--10">
+          <img src="img/works/10-560.webp" srcset="img/works/10-560.webp 560w, img/works/10.webp 736w"
+               sizes="(max-width: 767px) 50vw, 30vw" width="736" height="802" alt="Змеиная кожа" loading="lazy" decoding="async">
+          <figcaption>Змеиная кожа</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 5. Запись -->
+    <section class="booking" id="booking" aria-labelledby="booking-title">
+      <img class="booking__photo" src="img/portrait.webp" width="765" height="1024" alt="" loading="lazy" decoding="async">
+
+      <div class="booking__side">
+        <h2 class="booking__title script" id="booking-title">Записаться</h2>
+
+        <form class="form" id="booking-form" novalidate>
+          <div class="form__row form__row--2">
+            <label class="field">
+              <span class="field__label">Имя*</span>
+              <input class="field__input" type="text" name="name" autocomplete="given-name" required>
+            </label>
+            <label class="field">
+              <span class="field__label">Номер телефона*</span>
+              <input class="field__input" type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="+7 (___) ___-__-__" required>
+            </label>
+          </div>
+
+          <label class="field">
+            <span class="field__label">Telegram</span>
+            <input class="field__input" type="text" name="telegram" placeholder="@username" autocomplete="off">
+          </label>
+
+          <label class="field">
+            <span class="field__label">Услуга*</span>
+            <select class="field__input" name="service" required>
+              <option value="" selected disabled>Выберите услугу</option>
+              <option>Маникюр без покрытия</option>
+              <option>Маникюр с покрытием гель-лаком</option>
+              <option>Снятие покрытия</option>
+              <option>Укрепление ногтей</option>
+              <option>Наращивание ногтей</option>
+              <option>Ремонт одного ногтя</option>
+              <option>Минималистичный дизайн</option>
+              <option>Сложный дизайн</option>
+            </select>
+          </label>
+
+          <div class="form__row form__row--2">
+            <div class="field field--date">
+              <span class="field__label" id="date-label">Дата*</span>
+              <button class="field__input datepick__toggle is-empty" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="datepick" aria-labelledby="date-label date-value">
+                <span id="date-value">Выберите дату</span>
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M3.5 9.5h17M8 3v4M16 3v4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+              </button>
+              <input type="hidden" name="date">
+              <div class="datepick" id="datepick" role="dialog" aria-label="Выбор даты" hidden></div>
+            </div>
+            <label class="field">
+              <span class="field__label">Время</span>
+              <select class="field__input" name="time">
+                <option value="">Любое</option>
+                <option>10:00</option>
+                <option>12:30</option>
+                <option>15:00</option>
+                <option>17:30</option>
+                <option>20:00</option>
+              </select>
+            </label>
+          </div>
+
+          <label class="field">
+            <span class="field__label">Комментарий</span>
+            <textarea class="field__input field__input--area" name="comment" rows="3" placeholder="Пожелания к дизайну, длине, форме"></textarea>
+          </label>
+
+          <button class="form__submit" type="submit">отправить</button>
+          <p class="form__status" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="booking__map">
+          <iframe src="https://yandex.ru/map-widget/v1/?ll=30.345300%2C59.930000&amp;z=16&amp;pt=30.345300%2C59.930000%2Cpm2dgl&amp;lang=ru_RU"
+                  title="Карта: Санкт-Петербург, ул. Рубинштейна, 15" loading="lazy" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacts">
+    <svg class="deco-strands deco-strands--l" viewBox="0 0 240 600" preserveAspectRatio="none" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="0.6"><path d="M40.0 -10 C99.5 179.1 -86.4 422.2 16.5 610"/><path d="M49.2 -10 C102.9 170.4 -66.6 416.0 32.7 610"/><path d="M58.5 -10 C110.0 165.5 -28.8 397.4 42.2 610"/><path d="M67.7 -10 C132.3 196.9 -13.2 413.8 60.6 610"/><path d="M76.9 -10 C121.0 191.5 13.2 398.7 91.1 610"/><path d="M86.2 -10 C135.0 189.0 12.8 424.9 89.3 610"/><path d="M95.4 -10 C143.1 172.9 39.7 393.6 115.1 610"/><path d="M104.6 -10 C158.5 165.7 58.5 425.1 121.8 610"/><path d="M113.8 -10 C153.2 187.7 95.0 404.6 142.1 610"/><path d="M123.1 -10 C166.1 192.5 118.4 407.3 160.0 610"/><path d="M132.3 -10 C160.1 165.1 147.3 399.1 183.4 610"/><path d="M141.5 -10 C163.9 180.1 157.7 424.4 189.0 610"/><path d="M150.8 -10 C178.3 181.7 180.3 424.8 212.1 610"/><path d="M160.0 -10 C200.2 196.7 188.3 429.8 219.1 610"/></g></svg>
+    <svg class="deco-strands deco-strands--r" viewBox="0 0 240 600" preserveAspectRatio="none" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="0.6"><path d="M40.0 -10 C99.5 179.1 -86.4 422.2 16.5 610"/><path d="M49.2 -10 C102.9 170.4 -66.6 416.0 32.7 610"/><path d="M58.5 -10 C110.0 165.5 -28.8 397.4 42.2 610"/><path d="M67.7 -10 C132.3 196.9 -13.2 413.8 60.6 610"/><path d="M76.9 -10 C121.0 191.5 13.2 398.7 91.1 610"/><path d="M86.2 -10 C135.0 189.0 12.8 424.9 89.3 610"/><path d="M95.4 -10 C143.1 172.9 39.7 393.6 115.1 610"/><path d="M104.6 -10 C158.5 165.7 58.5 425.1 121.8 610"/><path d="M113.8 -10 C153.2 187.7 95.0 404.6 142.1 610"/><path d="M123.1 -10 C166.1 192.5 118.4 407.3 160.0 610"/><path d="M132.3 -10 C160.1 165.1 147.3 399.1 183.4 610"/><path d="M141.5 -10 C163.9 180.1 157.7 424.4 189.0 610"/><path d="M150.8 -10 C178.3 181.7 180.3 424.8 212.1 610"/><path d="M160.0 -10 C200.2 196.7 188.3 429.8 219.1 610"/></g></svg>
+
+    <div class="footer__brand">
+      <p class="footer__kicker">nail master · Санкт-Петербург</p>
+      <p class="footer__name script">Ланская</p>
+    </div>
+
+    <ul class="footer__info">
+      <li>
+        <span class="footer__label">Адрес</span>
+        ул. Рубинштейна, 15<br>м.&nbsp;Достоевская
+      </li>
+      <li>
+        <span class="footer__label">Часы</span>
+        ежедневно 10:00–21:00<br>по предварительной записи
+      </li>
+      <li>
+        <span class="footer__label">Связь</span>
+        <a href="tel:+79991234567">+7 (999) 123-45-67</a><br>
+        <a href="https://t.me/lanskaya_nails" target="_blank" rel="noopener">@lanskaya_nails</a>
+      </li>
+    </ul>
+
+    <div class="footer__bottom">
+      <p>© 2026 Вероника Ланская</p>
+      <nav class="footer__nav" aria-label="Разделы сайта">
+        <a href="#services">Услуги</a>
+        <a href="#works">Портфолио</a>
+        <a href="#booking">Запись</a>
+      </nav>
+      <a class="footer__up" href="#top">Наверх <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
